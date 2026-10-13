@@ -1,0 +1,10 @@
+{
+  "return_window_days": 30,
+  "match_threshold": 0.83,
+  "mismatch_threshold": 0.61,
+  "reasons": {
+    "damaged_product": {"requires_product_match": true,  "required_condition": "damaged"},
+    "size_issue":      {"requires_product_match": true,  "required_condition": "any"},
+    "wrong_item":      {"requires_product_match": false, "required_condition": "any"}
+  }
+}
