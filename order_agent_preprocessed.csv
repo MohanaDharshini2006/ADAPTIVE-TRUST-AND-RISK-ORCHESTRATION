@@ -1,0 +1,181 @@
+question_clean,answer_clean,category,intent
+where is my order?,you can track your order using the tracking link sent to your email.,Shipping,ORDER_STATUS
+"my package hasn't arrived yet, what should i do?","please check the tracking number. if it hasn't updated in 3 days, contact our support team.",Shipping,MISSING_OR_LOST_ORDER
+do you offer free shipping?,"yes, orders over $50 qualify for free standard shipping.",Shipping,SHIPPING
+i entered the wrong shipping address. can i change it?,contact our support immediately; we may be able to update your shipping address before dispatch.,Shipping,ORDER_MODIFICATION
+how long does shipping take?,standard shipping usually takes 5-7 business days; express shipping is 2-3 days.,Shipping,SHIPPING
+can i cancel my order?,orders can be canceled within 24 hours of placement via our cancelation page.,Order Management,ORDER_CANCELLATION
+do you ship internationally?,"yes, we ship to most countries; international shipping rates apply.",Shipping,SHIPPING
+"my package says delivered, but i didn't get it.","check with your neighbors or local post office. if still missing, contact us for assistance.",Shipping,MISSING_OR_LOST_ORDER
+can i pre-order upcoming items?,"yes, pre-orders are available for select items and will ship on the release date.",Orders,ORDER_OTHER
+how do i track my order?,use the tracking number sent to your email or check your order history online.,Shipping,ORDER_TRACKING
+can i combine multiple orders into one shipment?,"if the orders haven't shipped, contact support to merge them.",Orders,ORDER_MODIFICATION
+how do i know my order was confirmed?,you will receive a confirmation email with your order details immediately.,Orders,ORDER_STATUS
+what if my package is lost?,contact support; we will investigate and issue a replacement or refund if necessary.,Shipping,MISSING_OR_LOST_ORDER
+can i get a copy of my invoice?,"yes, download it from your order history.",Orders,ORDER_DETAILS
+my order is partially missing. what now?,contact support to report the missing items; we will resolve it promptly.,Orders,MISSING_OR_LOST_ORDER
+can i schedule a delivery?,scheduled delivery is available in select regions; choose the option at checkout.,Shipping,DELIVERY
+can i change the color of my item after ordering?,only if the order hasn't shipped; contact support immediately.,Orders,ORDER_MODIFICATION
+do you offer express shipping?,"yes, choose express shipping at checkout for faster delivery.",Shipping,SHIPPING
+how do i know when my order ships?,you'll receive an email notification with the tracking number once shipped.,Shipping,ORDER_STATUS
+can i add items to an order after checkout?,only before shipping; contact support immediately to modify the order.,Orders,ORDER_MODIFICATION
+can i reorder a previous order quickly?,"yes, go to your order history and select 'reorder'.",Orders,ORDER_OTHER
+do you provide receipts for purchases?,"yes, receipts are emailed automatically and available in your account.",Orders,ORDER_DETAILS
+can i pick up my order instead of shipping?,"currently, we do not offer in-store pickup; all orders are shipped.",Orders,SHIPPING
+my order status says 'processing' for days.,processing can take 1–2 days; contact support if delayed longer.,Shipping,ORDER_STATUS
+my tracking number isn't working.,"check after 24 hours; if it still doesn't work, contact support.",Shipping,ORDER_TRACKING
+do you ship on weekends?,we process orders monday–friday; delivery may occur on weekends depending on courier.,Shipping,SHIPPING
+can i change the delivery address mid-shipment?,contact support immediately; changes may not be possible once shipped.,Shipping,ORDER_MODIFICATION
+can i get a refund for shipping fees?,shipping fees are refundable only if the shipment was delayed or lost.,Shipping,SHIPPING
+can i request a specific delivery date?,"yes, choose the delivery date option at checkout if available.",Shipping,DELIVERY
+my order is missing items.,contact support with your order number; we'll resolve missing items promptly.,Orders,MISSING_OR_LOST_ORDER
+how long are pre-order items shipped?,pre-order items ship on the estimated release date listed on the product page.,Orders,SHIPPING
+do you provide tracking for international orders?,"yes, all international orders include a tracking number sent via email.",Shipping,ORDER_TRACKING
+my shipment is delayed. what should i do?,"check your tracking link for updates. if it remains delayed, contact support.",Shipping,DELIVERY
+can i change my delivery method after ordering?,only before the order ships; contact support to request a change.,Shipping,ORDER_MODIFICATION
+can i request expedited processing?,"yes, expedited processing is available for select items; choose the option at checkout.",Orders,SHIPPING
+do you offer bulk shipping for large orders?,"yes, contact support to arrange bulk shipping for large orders.",Orders,SHIPPING
+can i track my order on my phone?,"yes, use the tracking link sent via email or our mobile app.",Shipping,ORDER_TRACKING
+do you provide refunds for shipping costs?,shipping fees are refundable only if the shipment was delayed or lost.,Shipping,SHIPPING
+how do i cancel a pre-order?,contact support before the release date to cancel a pre-order.,Order Management,ORDER_CANCELLATION
+do you provide order confirmation emails?,"yes, an email confirmation is sent immediately after your order is placed.",Orders,ORDER_STATUS
+can i change my shipping method after placing an order?,only before shipment; contact support for changes.,Shipping,ORDER_MODIFICATION
+can i add special instructions to my order?,"yes, you can add notes during checkout for delivery instructions.",Orders,ORDER_MODIFICATION
+my package hasn't arrived. what should i do?,check the tracking information; contact support if it's significantly delayed.,Shipping,MISSING_OR_LOST_ORDER
+can i cancel an order after it ships?,"no, once an order ships it cannot be canceled.",Order Management,ORDER_CANCELLATION
+can i request a specific courier?,courier selection depends on shipping method; contact support for options.,Shipping,SHIPPING
+do you offer pre-order notifications?,"yes, sign up on the product page to receive pre-order alerts.",Orders,ORDER_OTHER
+how do i track international shipments?,use the tracking link provided in your shipping confirmation email.,Shipping,ORDER_TRACKING
+can i change my preferred delivery time?,contact support; changes are possible before shipment.,Shipping,DELIVERY
+can i add items to a previous order?,only if the order hasn't shipped; contact support immediately.,Orders,ORDER_MODIFICATION
+my item arrived late. can i get compensation?,contact support to discuss potential shipping compensation.,Shipping,ORDER_OTHER
+can i request express handling?,"yes, select express processing if available during checkout.",Orders,SHIPPING
+do you provide holiday delivery guarantees?,we strive to meet all holiday delivery deadlines; check cutoff dates online.,Shipping,DELIVERY
+my order tracking shows delayed. what next?,check with the carrier; contact support if delayed beyond expected delivery.,Shipping,ORDER_TRACKING
+how do i know my order has shipped?,you will receive a shipping confirmation email with tracking details once your order leaves our warehouse.,Shipping,ORDER_STATUS
+do you offer weekend delivery?,delivery on weekends depends on the courier and shipping option selected.,Shipping,DELIVERY
+can i track my order in real time?,"yes, tracking links provide real-time updates on your shipment.",Shipping,ORDER_TRACKING
+"my order is missing items, what should i do?",contact customer support with your order number; we will resolve missing items promptly.,Orders,MISSING_OR_LOST_ORDER
+can i change my shipping address after ordering?,only before shipment; contact support immediately to request a change.,Shipping,ORDER_MODIFICATION
+can i reorder a previous purchase quickly?,"yes, use the 'reorder' option in your order history.",Orders,ORDER_OTHER
+my tracking link isn't updating. what should i do?,"wait 24 hours for tracking to update; if it still doesn't work, contact support.",Shipping,ORDER_TRACKING
+do you provide receipts for all purchases?,"yes, receipts are emailed automatically and available in your account.",Orders,ORDER_DETAILS
+can i combine multiple orders for one shipping address?,"yes, multiple items ordered simultaneously can be shipped together.",Shipping,ORDER_MODIFICATION
+can i schedule a specific delivery date?,"yes, delivery dates can be scheduled at checkout where available.",Shipping,DELIVERY
+do you offer free shipping?,orders over $50 qualify for free standard shipping.,Shipping,SHIPPING
+can i request special instructions for my order?,"yes, add notes during checkout for delivery instructions.",Orders,ORDER_MODIFICATION
+do you offer express shipping?,"yes, express shipping is available at checkout for faster delivery.",Shipping,SHIPPING
+can i cancel a pre-order?,pre-orders can be canceled before the release date by contacting support.,Order Management,ORDER_CANCELLATION
+how long does standard shipping take?,standard shipping usually takes 5–7 business days.,Shipping,SHIPPING
+do you provide tracking for all orders?,"yes, every order includes a tracking number sent by email.",Shipping,ORDER_TRACKING
+my package was lost. what should i do?,contact support immediately; we will issue a replacement or refund if necessary.,Shipping,MISSING_OR_LOST_ORDER
+can i reorder an item for someone else as a gift?,"yes, use the 'reorder' option and enter the recipient's shipping details.",Orders,ORDER_OTHER
+can i change my delivery address mid-shipment?,contact support immediately; changes may not be possible after shipping.,Shipping,ORDER_MODIFICATION
+do you provide receipts automatically?,"yes, receipts are emailed and available in your account.",Orders,ORDER_DETAILS
+can i request express handling for my order?,"yes, express processing is available at checkout where applicable.",Orders,SHIPPING
+my tracking number isn't working. what should i do?,"wait 24 hours for updates; if still not working, contact support.",Shipping,ORDER_TRACKING
+can i leave special instructions for delivery?,"yes, add notes during checkout for delivery preferences.",Orders,ORDER_MODIFICATION
+can i change the color of my item after ordering?,only before the order ships; contact support immediately.,Orders,ORDER_MODIFICATION
+do you provide order confirmation emails?,"yes, confirmation emails are sent immediately after purchase.",Orders,ORDER_STATUS
+can i combine multiple orders for one shipment?,"yes, if the orders have not yet shipped, contact support to combine them.",Orders,ORDER_MODIFICATION
+can i request express shipping for international orders?,"yes, select express shipping at checkout if available.",Shipping,SHIPPING
+do you provide notifications for shipping delays?,"yes, tracking emails include updates on delays and status changes.",Shipping,DELIVERY
+can i get a refund if my package is lost?,"yes, contact support immediately and we will issue a replacement or refund.",Shipping,MISSING_OR_LOST_ORDER
+my order was partially fulfilled. what should i do?,contact support to resolve missing items or delayed products.,Orders,MISSING_OR_LOST_ORDER
+how do i know if my order is confirmed?,you will receive an email confirmation immediately after placing your order.,Orders,ORDER_STATUS
+do you offer free shipping for international orders?,free shipping is only available for domestic orders over $50; international rates vary.,Shipping,SHIPPING
+can i cancel my order after it ships?,"no, once shipped, orders cannot be canceled; returns can be processed after delivery.",Order Management,ORDER_CANCELLATION
+do you provide tracking for every shipment?,"yes, all shipments include a tracking number sent via email.",Shipping,ORDER_TRACKING
+do you offer express handling for pre-orders?,"yes, express processing may be available; select the option at checkout.",Orders,SHIPPING
+can i change my delivery address for an international order?,contact support immediately; changes may not be possible once shipped.,Shipping,ORDER_MODIFICATION
+do you provide receipts for all purchases?,"yes, receipts are emailed and available in your account.",Orders,ORDER_DETAILS
+can i leave special instructions for gift wrapping?,"yes, enter your instructions during checkout.",Orders,ORDER_MODIFICATION
+can i request express shipping for weekend delivery?,"yes, select express shipping at checkout if available.",Shipping,SHIPPING
+can i request a courier for my shipment?,courier selection depends on the shipping option; contact support for requests.,Shipping,SHIPPING
+my tracking number is not updating. what should i do?,"wait 24 hours; if still not updating, contact support.",Shipping,ORDER_TRACKING
+can i request a specific delivery time?,"yes, select a preferred delivery time during checkout if available.",Shipping,DELIVERY
+do you offer free shipping for first-time orders?,"yes, first-time customers may qualify for free shipping; check the website.",Shipping,SHIPPING
+can i change the color of an item after ordering?,only before the order ships; contact support immediately.,Orders,ORDER_MODIFICATION
+can i track international shipments in real time?,"yes, tracking links provide real-time updates for international orders.",Shipping,ORDER_TRACKING
+can i request express shipping for international pre-orders?,"yes, select express shipping during checkout if available.",Orders,SHIPPING
+do you offer express shipping for domestic orders?,"yes, select express shipping at checkout for faster delivery.",Shipping,SHIPPING
+can i leave special instructions for my subscription orders?,"yes, add notes during checkout or in your account settings.",Orders,ORDER_MODIFICATION
+do you provide notifications for order updates?,"yes, tracking and status emails are sent automatically.",Shipping,ORDER_STATUS
+can i cancel an order before it ships?,"yes, orders can be canceled before shipment via account settings or support.",Order Management,ORDER_CANCELLATION
+do you provide receipts for gift purchases?,"yes, receipts are emailed to the purchaser and can be downloaded from your account.",Orders,ORDER_DETAILS
+do you offer express handling for urgent orders?,"yes, select express processing at checkout if available.",Orders,SHIPPING
+can i request a specific courier for international shipments?,contact support to see if courier selection is possible.,Shipping,SHIPPING
+do you provide tracking updates via sms?,"yes, tracking updates can be sent via sms if selected during checkout.",Shipping,ORDER_TRACKING
+can i reorder a previous purchase for multiple recipients?,"yes, use 'reorder' and enter each recipient's shipping details.",Orders,ORDER_OTHER
+do you provide notifications for pre-order shipments?,"yes, tracking emails are sent once pre-orders are shipped.",Shipping,ORDER_OTHER
+do you provide real-time updates for package tracking?,"yes, tracking links provide live status updates.",Shipping,ORDER_TRACKING
+can i reorder an item from a previous purchase?,"yes, use the 'reorder' option in your order history to quickly order the same item.",Orders,ORDER_OTHER
+do you offer free shipping for loyalty members?,"yes, loyalty members may qualify for free shipping; check your account benefits.",Shipping,SHIPPING
+can i track a package internationally via sms?,"yes, sms tracking updates are available for select international orders.",Shipping,ORDER_TRACKING
+can i request a specific delivery time for pre-orders?,"yes, select a preferred delivery time at checkout if available.",Shipping,DELIVERY
+can i change my shipping address for a pre-order?,contact support immediately; changes are only possible before shipping.,Shipping,ORDER_MODIFICATION
+can i request express handling for subscription boxes?,"yes, select express processing if available during checkout.",Orders,SHIPPING
+do you provide tracking notifications for weekend deliveries?,"yes, tracking updates are sent automatically even for weekend deliveries.",Shipping,ORDER_TRACKING
+do you offer pre-order notifications via email?,"yes, sign up on the product page to receive email alerts for pre-orders.",Orders,ORDER_OTHER
+can i request a replacement for a lost package?,"yes, contact support immediately to issue a replacement or refund.",Shipping,MISSING_OR_LOST_ORDER
+do you provide tracking updates for high-value shipments?,"yes, high-value shipments include tracking and insurance details.",Shipping,ORDER_TRACKING
+can i request express shipping for holiday orders internationally?,"yes, select express shipping at checkout if available for international orders.",Shipping,SHIPPING
+can i leave special instructions for recurring orders?,"yes, add notes during checkout or in your account settings for recurring orders.",Orders,ORDER_MODIFICATION
+can i change the color of a subscription item?,only before shipment; contact support immediately.,Orders,ORDER_MODIFICATION
+do you provide real-time notifications for pre-orders?,"yes, tracking emails are sent once pre-orders are shipped.",Shipping,ORDER_OTHER
+can i cancel an international order before shipping?,"yes, contact support immediately to cancel prior to shipment.",Order Management,ORDER_CANCELLATION
+can i request a courier for express shipping?,contact support to request specific courier options where available.,Shipping,SHIPPING
+can i combine multiple orders for one shipment internationally?,"yes, contact support before shipment to combine multiple orders.",Shipping,ORDER_MODIFICATION
+can i reorder a previous purchase as a gift?,"yes, use the 'reorder' option and enter the recipient's shipping details.",Orders,ORDER_OTHER
+do you offer express shipping for domestic pre-orders?,"yes, express shipping is available at checkout for pre-orders.",Shipping,SHIPPING
+can i leave special instructions for pre-order shipments?,"yes, add notes during checkout if special instructions are needed.",Orders,ORDER_MODIFICATION
+do you provide receipts for international orders?,"yes, receipts are emailed and can be downloaded from your account.",Orders,ORDER_DETAILS
+can i change my delivery address for subscription items?,contact support immediately; changes are possible only before shipping.,Shipping,ORDER_MODIFICATION
+do you offer express handling for bulk subscription orders?,"yes, contact support to arrange express processing for bulk subscription orders.",Orders,SHIPPING
+can i change the color or size of a pre-ordered subscription item?,only before shipment; contact support immediately.,Orders,ORDER_MODIFICATION
+can i cancel a subscription order internationally before shipping?,"yes, contact support immediately to cancel before shipment.",Order Management,ORDER_CANCELLATION
+can i leave special instructions for vip orders?,"yes, notes can be added during checkout for vip orders.",Orders,ORDER_MODIFICATION
+do you offer recurring order tracking for vip members?,"yes, vip members receive tracking notifications for recurring orders.",Orders,ORDER_TRACKING
+can i request a replacement for lost vip shipments?,"yes, contact support to issue a replacement for lost vip items.",Shipping,MISSING_OR_LOST_ORDER
+can i reorder previous vip purchases for multiple recipients?,"yes, use 'reorder' and enter each recipient's shipping details.",Orders,ORDER_OTHER
+do you offer express shipping for vip pre-orders?,"yes, vip pre-orders can select express shipping during checkout.",Shipping,SHIPPING
+can i request expedited shipping for vip orders internationally?,"yes, select expedited shipping during checkout if available.",Shipping,SHIPPING
+can i leave special instructions for vip recurring orders?,"yes, add notes during checkout or in account settings.",Orders,ORDER_MODIFICATION
+can i reorder a vip subscription item for someone else?,"yes, use 'reorder' and enter the recipient's shipping details.",Orders,ORDER_OTHER
+do you provide tracking notifications for vip bulk orders?,"yes, tracking updates are sent automatically for vip bulk shipments.",Shipping,ORDER_TRACKING
+can i request express handling for vip subscription pre-orders?,"yes, express processing is available at checkout if selected.",Orders,SHIPPING
+can i change my delivery address for vip subscription items?,contact support immediately; changes are only possible before shipment.,Shipping,ORDER_MODIFICATION
+do you provide real-time tracking for vip international shipments?,"yes, vip international orders include live tracking updates.",Shipping,ORDER_TRACKING
+can i cancel a vip subscription order before shipment?,"yes, contact support immediately to cancel before the order ships.",Order Management,ORDER_CANCELLATION
+can i request special packaging for vip pre-orders?,"yes, select special packaging during checkout if available.",Orders,ORDER_OTHER
+can i request express shipping for vip holiday orders internationally?,"yes, select express shipping at checkout if available for vip holiday orders.",Shipping,SHIPPING
+can i leave special instructions for vip holiday gifts?,"yes, notes can be added during checkout for vip holiday orders.",Orders,ORDER_MODIFICATION
+do you offer vip recurring order tracking via email?,"yes, vip members receive email notifications for recurring orders.",Orders,ORDER_TRACKING
+can i request a replacement for lost vip subscription shipments?,"yes, contact support to issue a replacement for lost vip items.",Shipping,MISSING_OR_LOST_ORDER
+can i reorder vip purchases for multiple recipients?,"yes, use 'reorder' and enter each recipient's shipping details.",Orders,ORDER_OTHER
+do you offer express shipping for vip pre-orders?,"yes, vip pre-orders can select express shipping at checkout.",Shipping,SHIPPING
+can i leave special instructions for vip recurring gift subscriptions?,"yes, add notes during checkout or in your account settings.",Orders,ORDER_MODIFICATION
+do you provide vip pre-order notifications via sms?,"yes, sms alerts are sent for vip pre-orders if selected.",Orders,ORDER_OTHER
+do you offer express handling for vip bulk subscription orders?,"yes, contact support to arrange express handling for bulk orders.",Orders,SHIPPING
+do you provide vip tracking updates for international bulk shipments?,"yes, vip international bulk shipments include tracking notifications.",Shipping,ORDER_TRACKING
+can i request express shipping for vip international holiday gifts?,"yes, select express shipping at checkout if available.",Shipping,SHIPPING
+can i leave special instructions for vip international shipments?,"yes, notes can be added during checkout or in account settings.",Orders,ORDER_MODIFICATION
+do you provide vip receipts for international orders?,"yes, receipts are emailed and can be downloaded from your account.",Orders,ORDER_DETAILS
+can i cancel a vip international subscription order before shipping?,"yes, contact support immediately to cancel prior to shipment.",Order Management,ORDER_CANCELLATION
+can i leave special instructions for vip international pre-orders?,"yes, add notes during checkout if special instructions are needed.",Orders,ORDER_MODIFICATION
+can i reorder vip international subscription items for multiple recipients?,"yes, use 'reorder' and enter each recipient's international shipping details.",Orders,ORDER_OTHER
+do you offer express handling for vip international pre-orders?,"yes, contact support to arrange express handling for vip pre-orders.",Orders,SHIPPING
+can i change the color or size of vip international pre-ordered items?,only before shipment; contact support immediately.,Orders,ORDER_MODIFICATION
+can i cancel a vip international recurring order before shipment?,"yes, contact support immediately to cancel before shipping.",Order Management,ORDER_CANCELLATION
+can i request express shipping for vip international limited edition items?,"yes, select express shipping at checkout if available.",Shipping,SHIPPING
+can i leave special instructions for vip international subscription gifts?,"yes, add notes during checkout or in account settings.",Orders,ORDER_MODIFICATION
+do you offer recurring vip international order tracking?,"yes, vip international members receive tracking notifications for recurring orders.",Orders,ORDER_TRACKING
+can i request a replacement for lost vip international subscription shipments?,"yes, contact support to issue a replacement for lost vip items.",Shipping,MISSING_OR_LOST_ORDER
+can i reorder previous vip international purchases for multiple recipients?,"yes, use 'reorder' and enter each recipient's shipping details.",Orders,ORDER_OTHER
+do you offer express shipping for vip international pre-orders?,"yes, vip international pre-orders can select express shipping during checkout.",Shipping,SHIPPING
+can i change the shipping method after placing an order?,"yes, you can change it only before the order is shipped; contact support immediately.",Shipping,ORDER_MODIFICATION
+do you offer gift receipts?,"yes, gift receipts can be requested during checkout or through your account.",Orders,ORDER_DETAILS
+do you offer bulk shipping discounts?,"yes, contact support for pricing and options for bulk shipments.",Orders,SHIPPING
+can i request a specific delivery carrier?,courier selection may be limited; contact support to check available options.,Shipping,DELIVERY
+do you offer partial refunds for missing items in an order?,"yes, contact support and we will issue a refund for any missing items.",Orders,MISSING_OR_LOST_ORDER
+do you provide receipts for gift purchases sent internationally?,"yes, receipts are emailed to the purchaser and can be downloaded from your account.",Orders,ORDER_DETAILS
