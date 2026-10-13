@@ -1,0 +1,7 @@
+true_label,color_fade,fabric_material,fastener_hardware,general_quality_complaint,sizing_fit,stitching_durability
+color_fade,46,2,4,4,0,4
+fabric_material,1,36,8,13,1,1
+fastener_hardware,3,2,47,3,2,3
+general_quality_complaint,3,1,9,44,0,3
+sizing_fit,0,2,8,1,47,2
+stitching_durability,1,5,13,2,1,38

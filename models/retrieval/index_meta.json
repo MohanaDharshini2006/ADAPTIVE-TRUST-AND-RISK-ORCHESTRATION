@@ -1,0 +1,10 @@
+{
+  "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_input": "question_plus_answer",
+  "index_type": "cosine_exact",
+  "corpus_source_filter": "support_qa",
+  "corpus_size": 53,
+  "vector_dimension": 384,
+  "created_at_utc": "2026-10-10T11:07:52.690958+00:00",
+  "dataset_file": "technical_support_unified_dataset_FINAL.csv"
+}

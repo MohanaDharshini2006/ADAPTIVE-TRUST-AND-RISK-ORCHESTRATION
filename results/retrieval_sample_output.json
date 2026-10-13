@@ -1,0 +1,1452 @@
+[
+  {
+    "agent_id": "technical_support",
+    "query": "What sizes do you carry?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.6718042492866516,
+        "document": {
+          "doc_id": "sup_16",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "What sizes do you carry?",
+          "text": "What sizes do you carry? Our size chart is available on each product page for reference.",
+          "question": "What sizes do you carry?",
+          "answer": "Our size chart is available on each product page for reference.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.3993118405342102,
+        "document": {
+          "doc_id": "sup_131",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Do you have size guides?",
+          "text": "Do you have size guides? Yes, size guides are provided on each product page.",
+          "question": "Do you have size guides?",
+          "answer": "Yes, size guides are provided on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.3764440417289734,
+        "document": {
+          "doc_id": "sup_49",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Do you provide sizing guidance?",
+          "text": "Do you provide sizing guidance? Check our detailed size charts on each product page for accurate measurements.",
+          "question": "Do you provide sizing guidance?",
+          "answer": "Check our detailed size charts on each product page for accurate measurements.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.3615662753582001,
+        "document": {
+          "doc_id": "sup_195",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Do you provide size guides?",
+          "text": "Do you provide size guides? Yes, size guides are available on every product page.",
+          "question": "Do you provide size guides?",
+          "answer": "Yes, size guides are available on every product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.3611266314983368,
+        "document": {
+          "doc_id": "sup_288",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Do you provide size guides for all items?",
+          "text": "Do you provide size guides for all items? Yes, size charts are available on every product page.",
+          "question": "Do you provide size guides for all items?",
+          "answer": "Yes, size charts are available on every product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "candidate",
+    "evidence_notes": "Returned the nearest prototype FAQs by cosine similarity. Similarity is a relevance clue, not proof of correctness or official policy.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "Can I change the size after I already placed my order?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.8681697249412537,
+        "document": {
+          "doc_id": "sup_17",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size after ordering?",
+          "text": "Can I change the size after ordering? If your order hasn't shipped, contact support to modify the size.",
+          "question": "Can I change the size after ordering?",
+          "answer": "If your order hasn't shipped, contact support to modify the size.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.8244474530220032,
+        "document": {
+          "doc_id": "sup_194",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size of my item after ordering?",
+          "text": "Can I change the size of my item after ordering? Only if the order hasn't shipped; contact support immediately.",
+          "question": "Can I change the size of my item after ordering?",
+          "answer": "Only if the order hasn't shipped; contact support immediately.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.7669386267662048,
+        "document": {
+          "doc_id": "sup_267",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size of a pre-ordered item?",
+          "text": "Can I change the size of a pre-ordered item? Only if the order hasn\u201a\u00c4\u00f4t shipped; contact support immediately.",
+          "question": "Can I change the size of a pre-ordered item?",
+          "answer": "Only if the order hasn\u201a\u00c4\u00f4t shipped; contact support immediately.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.4140850901603699,
+        "document": {
+          "doc_id": "sup_131",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Do you have size guides?",
+          "text": "Do you have size guides? Yes, size guides are provided on each product page.",
+          "question": "Do you have size guides?",
+          "answer": "Yes, size guides are provided on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.41152334213256836,
+        "document": {
+          "doc_id": "sup_392",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Do you provide size guides for VIP exclusive items?",
+          "text": "Do you provide size guides for VIP exclusive items? Yes, size guides are available on VIP product pages.",
+          "question": "Do you provide size guides for VIP exclusive items?",
+          "answer": "Yes, size guides are available on VIP product pages.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "candidate",
+    "evidence_notes": "Returned the nearest prototype FAQs by cosine similarity. Similarity is a relevance clue, not proof of correctness or official policy.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "How do I wash this clothing item in a washing machine?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.637363076210022,
+        "document": {
+          "doc_id": "sup_109",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your clothing items machine washable?",
+          "text": "Are your clothing items machine washable? Yes, most items are machine washable; check care labels for specifics.",
+          "question": "Are your clothing items machine washable?",
+          "answer": "Yes, most items are machine washable; check care labels for specifics.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.5682452321052551,
+        "document": {
+          "doc_id": "sup_278",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for machine-washable items?",
+          "text": "Do you provide care instructions for machine-washable items? Yes, care instructions are listed on each product page.",
+          "question": "Do you provide care instructions for machine-washable items?",
+          "answer": "Yes, care instructions are listed on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.5451077818870544,
+        "document": {
+          "doc_id": "sup_175",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide instructions for washing delicate items?",
+          "text": "Do you provide instructions for washing delicate items? Yes, care instructions are provided on each product page.",
+          "question": "Do you provide instructions for washing delicate items?",
+          "answer": "Yes, care instructions are provided on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.41733965277671814,
+        "document": {
+          "doc_id": "sup_142",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for delicate fabrics?",
+          "text": "Do you provide care instructions for delicate fabrics? Yes, care instructions are listed on each product page.",
+          "question": "Do you provide care instructions for delicate fabrics?",
+          "answer": "Yes, care instructions are listed on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.40637969970703125,
+        "document": {
+          "doc_id": "sup_89",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for clothing?",
+          "text": "Do you provide care instructions for clothing? Yes, each product page includes care instructions.",
+          "question": "Do you provide care instructions for clothing?",
+          "answer": "Yes, each product page includes care instructions.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "candidate",
+    "evidence_notes": "Returned the nearest prototype FAQs by cosine similarity. Similarity is a relevance clue, not proof of correctness or official policy.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "Are your fabrics hypoallergenic or safe for sensitive skin?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.857149064540863,
+        "document": {
+          "doc_id": "sup_94",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your fabrics hypoallergenic?",
+          "text": "Are your fabrics hypoallergenic? Most of our fabrics are tested to be skin-friendly; check product descriptions for details.",
+          "question": "Are your fabrics hypoallergenic?",
+          "answer": "Most of our fabrics are tested to be skin-friendly; check product descriptions for details.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.4987075924873352,
+        "document": {
+          "doc_id": "sup_20",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your materials sustainable?",
+          "text": "Are your materials sustainable? We source eco-friendly fabrics; check each product page for details.",
+          "question": "Are your materials sustainable?",
+          "answer": "We source eco-friendly fabrics; check each product page for details.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.4096516966819763,
+        "document": {
+          "doc_id": "sup_142",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for delicate fabrics?",
+          "text": "Do you provide care instructions for delicate fabrics? Yes, care instructions are listed on each product page.",
+          "question": "Do you provide care instructions for delicate fabrics?",
+          "answer": "Yes, care instructions are listed on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.407223105430603,
+        "document": {
+          "doc_id": "sup_141",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are clothing items ethically sourced?",
+          "text": "Are clothing items ethically sourced? Yes, we ensure ethical sourcing for all our products.",
+          "question": "Are clothing items ethically sourced?",
+          "answer": "Yes, we ensure ethical sourcing for all our products.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.37752169370651245,
+        "document": {
+          "doc_id": "sup_326",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for wool and silk?",
+          "text": "Do you provide care instructions for wool and silk? Yes, care instructions for delicate fabrics like wool and silk are included on product pages.",
+          "question": "Do you provide care instructions for wool and silk?",
+          "answer": "Yes, care instructions for delicate fabrics like wool and silk are included on product pages.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "candidate",
+    "evidence_notes": "Returned the nearest prototype FAQs by cosine similarity. Similarity is a relevance clue, not proof of correctness or official policy.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "How can I contact customer support?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.8162280917167664,
+        "document": {
+          "doc_id": "sup_34",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "How do I contact customer support?",
+          "text": "How do I contact customer support? Click 'Contact Us' at the bottom of the page or email support@example.com.",
+          "question": "How do I contact customer support?",
+          "answer": "Click 'Contact Us' at the bottom of the page or email support@example.com.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.6458963751792908,
+        "document": {
+          "doc_id": "sup_79",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "Do you have a phone number for support?",
+          "text": "Do you have a phone number for support? Currently, support is online via email or chat only.",
+          "question": "Do you have a phone number for support?",
+          "answer": "Currently, support is online via email or chat only.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.5233120322227478,
+        "document": {
+          "doc_id": "sup_248",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "Do you offer weekend customer support?",
+          "text": "Do you offer weekend customer support? Yes, support is available online during weekends from 10 AM to 4 PM EST.",
+          "question": "Do you offer weekend customer support?",
+          "answer": "Yes, support is available online during weekends from 10 AM to 4 PM EST.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.4487311840057373,
+        "document": {
+          "doc_id": "sup_121",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "Do you offer support via live chat?",
+          "text": "Do you offer support via live chat? Yes, live chat is available on our website during business hours.",
+          "question": "Do you offer support via live chat?",
+          "answer": "Yes, live chat is available on our website during business hours.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.4115797281265259,
+        "document": {
+          "doc_id": "sup_194",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size of my item after ordering?",
+          "text": "Can I change the size of my item after ordering? Only if the order hasn't shipped; contact support immediately.",
+          "question": "Can I change the size of my item after ordering?",
+          "answer": "Only if the order hasn't shipped; contact support immediately.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "candidate",
+    "evidence_notes": "Returned the nearest prototype FAQs by cosine similarity. Similarity is a relevance clue, not proof of correctness or official policy.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "Do you offer eco-friendly packaging?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.8967341184616089,
+        "document": {
+          "doc_id": "sup_170",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide eco-friendly packaging?",
+          "text": "Do you provide eco-friendly packaging? Yes, eco-friendly packaging options are available at checkout.",
+          "question": "Do you provide eco-friendly packaging?",
+          "answer": "Yes, eco-friendly packaging options are available at checkout.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.894720196723938,
+        "document": {
+          "doc_id": "sup_52",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you offer eco-friendly packaging?",
+          "text": "Do you offer eco-friendly packaging? Yes, select the eco-packaging option at checkout.",
+          "question": "Do you offer eco-friendly packaging?",
+          "answer": "Yes, select the eco-packaging option at checkout.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.8020079731941223,
+        "document": {
+          "doc_id": "sup_293",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you offer eco-friendly packaging options for gifts?",
+          "text": "Do you offer eco-friendly packaging options for gifts? Yes, eco-packaging can be selected at checkout for gift orders.",
+          "question": "Do you offer eco-friendly packaging options for gifts?",
+          "answer": "Yes, eco-packaging can be selected at checkout for gift orders.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.7582805752754211,
+        "document": {
+          "doc_id": "sup_330",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide eco-friendly packaging for subscriptions?",
+          "text": "Do you provide eco-friendly packaging for subscriptions? Yes, eco-friendly packaging options are available for subscription orders.",
+          "question": "Do you provide eco-friendly packaging for subscriptions?",
+          "answer": "Yes, eco-friendly packaging options are available for subscription orders.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.6337452530860901,
+        "document": {
+          "doc_id": "sup_125",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you offer eco-friendly shipping options?",
+          "text": "Do you offer eco-friendly shipping options? Yes, select eco-friendly shipping at checkout where available.",
+          "question": "Do you offer eco-friendly shipping options?",
+          "answer": "Yes, select eco-friendly shipping at checkout where available.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "candidate",
+    "evidence_notes": "Returned the nearest prototype FAQs by cosine similarity. Similarity is a relevance clue, not proof of correctness or official policy.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "The zipper on my jacket broke after one week. How do I fix the hardware?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.2510284185409546,
+        "document": {
+          "doc_id": "sup_34",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "How do I contact customer support?",
+          "text": "How do I contact customer support? Click 'Contact Us' at the bottom of the page or email support@example.com.",
+          "question": "How do I contact customer support?",
+          "answer": "Click 'Contact Us' at the bottom of the page or email support@example.com.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.237817645072937,
+        "document": {
+          "doc_id": "sup_17",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size after ordering?",
+          "text": "Can I change the size after ordering? If your order hasn't shipped, contact support to modify the size.",
+          "question": "Can I change the size after ordering?",
+          "answer": "If your order hasn't shipped, contact support to modify the size.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.2276357114315033,
+        "document": {
+          "doc_id": "sup_109",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your clothing items machine washable?",
+          "text": "Are your clothing items machine washable? Yes, most items are machine washable; check care labels for specifics.",
+          "question": "Are your clothing items machine washable?",
+          "answer": "Yes, most items are machine washable; check care labels for specifics.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.21880725026130676,
+        "document": {
+          "doc_id": "sup_89",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for clothing?",
+          "text": "Do you provide care instructions for clothing? Yes, each product page includes care instructions.",
+          "question": "Do you provide care instructions for clothing?",
+          "answer": "Yes, each product page includes care instructions.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.21546880900859833,
+        "document": {
+          "doc_id": "sup_79",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "Do you have a phone number for support?",
+          "text": "Do you have a phone number for support? Currently, support is online via email or chat only.",
+          "question": "Do you have a phone number for support?",
+          "answer": "Currently, support is online via email or chat only.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "insufficient",
+    "evidence_notes": "This query is a known knowledge-base gap (for example zipper/hardware, color fade, stitching, or refund/return). Candidate FAQs may still be listed for inspection, but similarity is not treated as a valid answer.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "The color faded after the first wash. Is that a defect?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.3653048574924469,
+        "document": {
+          "doc_id": "sup_109",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your clothing items machine washable?",
+          "text": "Are your clothing items machine washable? Yes, most items are machine washable; check care labels for specifics.",
+          "question": "Are your clothing items machine washable?",
+          "answer": "Yes, most items are machine washable; check care labels for specifics.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.30963873863220215,
+        "document": {
+          "doc_id": "sup_94",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your fabrics hypoallergenic?",
+          "text": "Are your fabrics hypoallergenic? Most of our fabrics are tested to be skin-friendly; check product descriptions for details.",
+          "question": "Are your fabrics hypoallergenic?",
+          "answer": "Most of our fabrics are tested to be skin-friendly; check product descriptions for details.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.23452910780906677,
+        "document": {
+          "doc_id": "sup_278",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for machine-washable items?",
+          "text": "Do you provide care instructions for machine-washable items? Yes, care instructions are listed on each product page.",
+          "question": "Do you provide care instructions for machine-washable items?",
+          "answer": "Yes, care instructions are listed on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.2191838026046753,
+        "document": {
+          "doc_id": "sup_175",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide instructions for washing delicate items?",
+          "text": "Do you provide instructions for washing delicate items? Yes, care instructions are provided on each product page.",
+          "question": "Do you provide instructions for washing delicate items?",
+          "answer": "Yes, care instructions are provided on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.1932401955127716,
+        "document": {
+          "doc_id": "sup_20",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your materials sustainable?",
+          "text": "Are your materials sustainable? We source eco-friendly fabrics; check each product page for details.",
+          "question": "Are your materials sustainable?",
+          "answer": "We source eco-friendly fabrics; check each product page for details.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "insufficient",
+    "evidence_notes": "This query is a known knowledge-base gap (for example zipper/hardware, color fade, stitching, or refund/return). Candidate FAQs may still be listed for inspection, but similarity is not treated as a valid answer.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "The stitching is coming apart on the seam. What should I do?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.3298332095146179,
+        "document": {
+          "doc_id": "sup_109",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Are your clothing items machine washable?",
+          "text": "Are your clothing items machine washable? Yes, most items are machine washable; check care labels for specifics.",
+          "question": "Are your clothing items machine washable?",
+          "answer": "Yes, most items are machine washable; check care labels for specifics.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.3242146074771881,
+        "document": {
+          "doc_id": "sup_142",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for delicate fabrics?",
+          "text": "Do you provide care instructions for delicate fabrics? Yes, care instructions are listed on each product page.",
+          "question": "Do you provide care instructions for delicate fabrics?",
+          "answer": "Yes, care instructions are listed on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.2767709195613861,
+        "document": {
+          "doc_id": "sup_305",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for delicate items?",
+          "text": "Do you provide care instructions for delicate items? Yes, instructions are listed on the product page.",
+          "question": "Do you provide care instructions for delicate items?",
+          "answer": "Yes, instructions are listed on the product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.2752491235733032,
+        "document": {
+          "doc_id": "sup_175",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide instructions for washing delicate items?",
+          "text": "Do you provide instructions for washing delicate items? Yes, care instructions are provided on each product page.",
+          "question": "Do you provide instructions for washing delicate items?",
+          "answer": "Yes, care instructions are provided on each product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.271578848361969,
+        "document": {
+          "doc_id": "sup_251",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Product Info",
+          "title": "Do you provide care instructions for all fabrics?",
+          "text": "Do you provide care instructions for all fabrics? Yes, care instructions are included on every product page.",
+          "question": "Do you provide care instructions for all fabrics?",
+          "answer": "Yes, care instructions are included on every product page.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "insufficient",
+    "evidence_notes": "This query is a known knowledge-base gap (for example zipper/hardware, color fade, stitching, or refund/return). Candidate FAQs may still be listed for inspection, but similarity is not treated as a valid answer.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  },
+  {
+    "agent_id": "technical_support",
+    "query": "Can I get a refund for this damaged item?",
+    "predicted_category": null,
+    "category_confidence": null,
+    "response": null,
+    "evidence": [
+      {
+        "rank": 1,
+        "similarity_score": 0.431051105260849,
+        "document": {
+          "doc_id": "sup_194",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size of my item after ordering?",
+          "text": "Can I change the size of my item after ordering? Only if the order hasn't shipped; contact support immediately.",
+          "question": "Can I change the size of my item after ordering?",
+          "answer": "Only if the order hasn't shipped; contact support immediately.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 2,
+        "similarity_score": 0.37179142236709595,
+        "document": {
+          "doc_id": "sup_34",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "How do I contact customer support?",
+          "text": "How do I contact customer support? Click 'Contact Us' at the bottom of the page or email support@example.com.",
+          "question": "How do I contact customer support?",
+          "answer": "Click 'Contact Us' at the bottom of the page or email support@example.com.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 3,
+        "similarity_score": 0.35950395464897156,
+        "document": {
+          "doc_id": "sup_267",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size of a pre-ordered item?",
+          "text": "Can I change the size of a pre-ordered item? Only if the order hasn\u201a\u00c4\u00f4t shipped; contact support immediately.",
+          "question": "Can I change the size of a pre-ordered item?",
+          "answer": "Only if the order hasn\u201a\u00c4\u00f4t shipped; contact support immediately.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 4,
+        "similarity_score": 0.3216099441051483,
+        "document": {
+          "doc_id": "sup_17",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Sizing",
+          "title": "Can I change the size after ordering?",
+          "text": "Can I change the size after ordering? If your order hasn't shipped, contact support to modify the size.",
+          "question": "Can I change the size after ordering?",
+          "answer": "If your order hasn't shipped, contact support to modify the size.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      },
+      {
+        "rank": 5,
+        "similarity_score": 0.3196123540401459,
+        "document": {
+          "doc_id": "sup_54",
+          "source_id": "technical_support_unified_dataset_FINAL.csv",
+          "source_type": "support_qa",
+          "category": "Support",
+          "title": "Can I report a website bug?",
+          "text": "Can I report a website bug? Yes, contact support with details of the issue and screenshots if possible.",
+          "question": "Can I report a website bug?",
+          "answer": "Yes, contact support with details of the issue and screenshots if possible.",
+          "source_url": null,
+          "verification": {
+            "status": "unverified",
+            "is_official_policy": false,
+            "is_verified_troubleshooting": false,
+            "origin": "prototype_faq",
+            "notes": "Prototype FAQ from the project dataset (technical_support_unified_dataset_FINAL.csv). Not official store policy and not verified troubleshooting.",
+            "verified_by": null,
+            "verified_at": null
+          },
+          "extra": {}
+        }
+      }
+    ],
+    "evidence_status": "insufficient",
+    "evidence_notes": "This query is a known knowledge-base gap (for example zipper/hardware, color fade, stitching, or refund/return). Candidate FAQs may still be listed for inspection, but similarity is not treated as a valid answer.",
+    "hallucination_check": null,
+    "evidence_quality": null,
+    "trust_signal": null,
+    "risk_signal": null,
+    "conflict_signal": null,
+    "recommended_action": null,
+    "embedder_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "corpus_size": 53,
+    "top_k": 5
+  }
+]

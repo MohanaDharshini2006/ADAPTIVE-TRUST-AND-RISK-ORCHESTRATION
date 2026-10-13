@@ -1,0 +1,76 @@
+{
+  "description": "Manual Milestone 2 retrieval queries. Gold doc_ids are expected relevant FAQs, not proof that answers are official policy. Gap queries have no dedicated FAQ in this 53-row corpus.",
+  "default_top_k": 5,
+  "queries": [
+    {
+      "query_id": "q01_sizes",
+      "query": "What sizes do you carry?",
+      "expected_coverage": "answerable",
+      "gold_doc_ids": ["sup_16", "sup_49", "sup_131", "sup_144", "sup_195", "sup_288", "sup_354"],
+      "notes": "Direct size-chart FAQs."
+    },
+    {
+      "query_id": "q02_change_size",
+      "query": "Can I change the size after I already placed my order?",
+      "expected_coverage": "answerable",
+      "gold_doc_ids": ["sup_17", "sup_194", "sup_267"],
+      "notes": "Size-change-if-not-shipped FAQs."
+    },
+    {
+      "query_id": "q03_machine_wash",
+      "query": "How do I wash this clothing item in a washing machine?",
+      "expected_coverage": "answerable",
+      "gold_doc_ids": ["sup_89", "sup_109", "sup_175", "sup_218", "sup_251", "sup_278"],
+      "notes": "Care and machine-wash FAQs. Many near-duplicates exist."
+    },
+    {
+      "query_id": "q04_hypoallergenic",
+      "query": "Are your fabrics hypoallergenic or safe for sensitive skin?",
+      "expected_coverage": "answerable",
+      "gold_doc_ids": ["sup_94"],
+      "notes": "One direct hypoallergenic FAQ."
+    },
+    {
+      "query_id": "q05_contact_support",
+      "query": "How can I contact customer support?",
+      "expected_coverage": "answerable",
+      "gold_doc_ids": ["sup_34", "sup_79", "sup_121"],
+      "notes": "Contact, phone, and live-chat FAQs."
+    },
+    {
+      "query_id": "q06_eco_packaging",
+      "query": "Do you offer eco-friendly packaging?",
+      "expected_coverage": "answerable",
+      "gold_doc_ids": ["sup_52", "sup_170", "sup_293"],
+      "notes": "Eco-packaging FAQs. Other eco shipping/subscription rows are related but not listed as gold."
+    },
+    {
+      "query_id": "q07_zipper_gap",
+      "query": "The zipper on my jacket broke after one week. How do I fix the hardware?",
+      "expected_coverage": "gap",
+      "gold_doc_ids": [],
+      "notes": "No fastener/hardware troubleshooting FAQ in this corpus."
+    },
+    {
+      "query_id": "q08_color_fade_gap",
+      "query": "The color faded after the first wash. Is that a defect?",
+      "expected_coverage": "gap",
+      "gold_doc_ids": [],
+      "notes": "No color-fade policy FAQ. Care-instruction FAQs may still rank highly."
+    },
+    {
+      "query_id": "q09_stitching_gap",
+      "query": "The stitching is coming apart on the seam. What should I do?",
+      "expected_coverage": "gap",
+      "gold_doc_ids": [],
+      "notes": "No stitching or durability troubleshooting FAQ."
+    },
+    {
+      "query_id": "q10_refund_gap",
+      "query": "Can I get a refund for this damaged item?",
+      "expected_coverage": "gap",
+      "gold_doc_ids": [],
+      "notes": "Refund/return policy is outside this Technical Support FAQ corpus."
+    }
+  ]
+}

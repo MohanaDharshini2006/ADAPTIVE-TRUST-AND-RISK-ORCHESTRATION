@@ -1,0 +1,36 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Local experiment outputs and checkpoints
+checkpoints/
+wandb/
+mlruns/
