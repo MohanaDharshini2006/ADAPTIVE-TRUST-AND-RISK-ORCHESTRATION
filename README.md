@@ -89,7 +89,7 @@ Expected: unit checks pass; 53 FAQ embeddings are saved under `models/retrieval/
 
 Similarity means “these FAQs look related.” It does not mean the FAQ is correct, complete, or official policy. This corpus has no dedicated FAQs for zippers, color fade, stitching repairs, or refunds.
 
-## Limitations (important for your presentation)
+## Limitations 
 
 - Amazon category labels were created with **keyword rules**, so some reviews may be tagged incorrectly. High accuracy can partly mean “the model learned the same keywords,” not that it understands products.
 - The 1,800 reviews are a **balanced sample** (300 per class), not real complaint frequencies.
