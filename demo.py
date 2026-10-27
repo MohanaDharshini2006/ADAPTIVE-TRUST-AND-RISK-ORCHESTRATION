@@ -14,9 +14,9 @@ other = users[(users.key != order["product_key"]) &
               (users.category_name.str.lower() == order["product_name"].lower())].iloc[0]
 
 cases = {
-    "SAME product, customer says damaged": (same.item_id, "The shirt arrived damaged", "damaged"),
-    "SAME product, no condition info":     (same.item_id, "The shirt arrived damaged", "unknown"),
-    "DIFFERENT product (same category)":   (other.item_id, "I received the wrong item", "any"),
+    "SAME product, customer says damaged": (same.item_id, "The shirt arrived damaged", None),
+    "SAME product, no condition info":     (same.item_id, "The shirt arrived damaged", None),
+    "DIFFERENT product (same category)":   (other.item_id, "I received the wrong item", None),
 }
 for name, (iid, text, cond) in cases.items():
     out = process_return("ORD001", text, f"data/crops/{iid}.jpg", condition=cond)

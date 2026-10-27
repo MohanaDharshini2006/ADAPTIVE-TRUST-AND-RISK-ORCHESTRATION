@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATRO Return Desk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>ATRO Return Desk</h1>
+      <p>Check a returned item against its order and see how ATRO decides.</p>
+    </div>
+    <p id="status" class="status"></p>
+  </header>
+
+  <main class="desk">
+    <form id="form" class="intake">
+      <h2>New return</h2>
+
+      <label for="order">Order</label>
+      <select id="order" required></select>
+      <p id="orderInfo" class="hint"></p>
+
+      <label for="message">What the customer wrote</label>
+      <textarea id="message" rows="3" maxlength="2000">The item arrived damaged and I want to return it.</textarea>
+
+      <label for="photo">Photo of the returned item</label>
+      <input id="photo" type="file" accept="image/jpeg,image/png" required>
+
+      <fieldset>
+        <legend>Condition check</legend>
+        <label class="choice"><input type="radio" name="cmode" value="auto" checked> Vision model</label>
+        <label class="choice"><input type="radio" name="cmode" value="skip"> Skip (condition unknown)</label>
+        <label class="choice"><input type="radio" name="cmode" value="manual"> Set by hand (demo only)</label>
+        <select id="manual" aria-label="Condition set by hand" disabled>
+          <option>damaged</option><option>intact</option>
+        </select>
+      </fieldset>
+
+      <button id="go" type="submit">Check return</button>
+      <p id="error" class="error" role="alert"></p>
+    </form>
+
+    <section class="bench" aria-live="polite">
+      <div id="empty" class="empty">
+        <h2>No return checked yet</h2>
+        <p>Pick an order, add the customer's photo and select Check return. The decision, the evidence behind it and the billing record appear here.</p>
+      </div>
+
+      <div id="result" hidden>
+        <div id="verdict" class="verdict">
+          <h2 id="decision"></h2>
+          <p id="nextAction"></p>
+        </div>
+
+        <div class="plates">
+          <figure><img id="imgOrig" alt="Original product from the order"><figcaption>Original product</figcaption></figure>
+          <figure><img id="imgRet" alt="Photo of the returned item"><figcaption>Returned item</figcaption></figure>
+        </div>
+
+        <div class="match">
+          <h3>Product match</h3>
+          <div class="ruler" id="ruler">
+            <span class="seg mismatch"></span><span class="seg verify"></span><span class="seg match"></span>
+            <span id="marker" class="marker"><b id="markerLabel"></b></span>
+          </div>
+          <div class="ruler-labels" id="rulerLabels"></div>
+        </div>
+
+        <dl class="facts">
+          <div><dt>Condition</dt><dd id="fCondition"></dd></div>
+          <div><dt>Eligibility</dt><dd id="fStatus"></dd></div>
+          <div><dt>Refund</dt><dd id="fRefund"></dd></div>
+          <div><dt>Trust</dt><dd id="fTrust"></dd></div>
+          <div><dt>Risk</dt><dd id="fRisk"></dd></div>
+        </dl>
+
+        <div class="cols">
+          <div><h3>Evidence</h3><ul id="evidence"></ul></div>
+          <div><h3>Risk flags</h3><ul id="flags"></ul></div>
+        </div>
+
+        <h3>Billing Agent record</h3>
+        <pre id="billing"></pre>
+        <details><summary>Full agent output</summary><pre id="raw"></pre></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">Prototype. Orders, prices and dates are generated. Thresholds and ATRO weights are prototype values.</footer>
+  <script src="app.js"></script>
+</body>
+</html>

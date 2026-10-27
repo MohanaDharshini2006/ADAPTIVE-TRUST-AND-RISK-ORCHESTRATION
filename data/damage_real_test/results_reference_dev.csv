@@ -1,0 +1,26 @@
+truth,file,pred,note
+damaged,set_01_damaged.jpg,damaged,The returned t-shirt has large brown stains on the front that are not present on the original product.
+damaged,set_02_damaged.jpg,damaged,"The returned shirt has a large, jagged hole in the center of the chest that is not present in the original product image."
+damaged,set_03_damaged.jpg,damaged,"The returned shirt has a large, jagged hole torn through the front chest area that is not present in the original product image."
+damaged,set_04_damaged.jpg,damaged,The returned shirt has a large vertical tear and frayed holes on the front that are not present in the original product image.
+damaged,set_05_damaged.jpg,damaged,The returned shirt has a large dark stain on the front that is not present on the original product.
+damaged,set_06_damaged.jpg,damaged,The returned shirt has a large hole in the chest pocket area that is not present in the original product image.
+damaged,set_07_damaged.jpg,damaged,"The returned shirt has a large, jagged tear on the front panel that is not present in the original product image."
+damaged,set_08_damaged.jpg,damaged,"The returned shirt has a large, jagged tear on the front panel that is not present in the original product image."
+damaged,set_09_damaged.jpg,damaged,The returned shirt has large brown stains on the front that are not present on the original product.
+damaged,set_10_damaged.jpg,damaged,"The returned shirt has a large, jagged hole torn through the front panel that is not present in the original product image."
+damaged,set_11_damaged.jpg,damaged,The returned shirt has a large tear and significant staining on the front that are not present in the original product image.
+damaged,set_12_damaged.jpg,damaged,The returned shirt has a large hole in the front panel that is not present in the original product image.
+damaged,set_13_damaged.jpg,damaged,The returned item has a large hole in the thigh area that is not present in the original product image.
+damaged,set_14_damaged.jpg,damaged,"The returned jeans feature large, deep rips and tears on the thigh and knee that are significantly more severe than the small, subtle distressing seen on the original product."
+damaged,set_15_damaged.jpg,damaged,The returned jeans have large brown stains and splatters on the legs that are not present on the original product.
+intact,set_01_original.jpg,intact,"The returned white t-shirt appears clean and undamaged, matching the original product image without any visible tears, stains, or defects."
+intact,set_02_original.jpg,intact,The returned t-shirt appears to be in the same condition as the original product with no visible damage.
+intact,set_03_original.jpg,intact,The returned item appears to be in the same condition as the original product with no visible damage.
+intact,set_04_original.jpg,intact,"The returned item in image 2 appears to be in the same condition as the product in image 1, with no visible damage."
+intact,set_05_original.jpg,intact,The returned item appears to be in the same condition as the original product with no visible damage.
+intact,set_06_original.jpg,intact,The returned item appears to be in the same condition as the original product with no visible damage.
+intact,set_07_original.jpg,intact,"The returned item in image 2 appears to be the same blue shirt as the product in image 1, with no visible tears, holes, or stains."
+intact,set_08_original.jpg,intact,"The returned shirt in the second image appears to be in the same condition as the product photo, with no visible tears, holes, or stains."
+intact,set_09_original.jpg,intact,"The returned white shirt appears clean and undamaged, matching the original product image without any visible tears, stains, or missing parts."
+intact,set_10_original.jpg,intact,The returned shirt appears to be in the same condition as the original product with no visible damage.

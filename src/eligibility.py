@@ -9,7 +9,7 @@ def load_policy(path="policy.json"):
 
 
 def check_eligibility(order_id, reason, match_score, condition="unknown",
-                      today=None, policy=None):
+                      today=None, policy=None,order=None):
     policy = policy or load_policy()
     today = today or date.today()
     evidence, flags = [], []
@@ -21,7 +21,7 @@ def check_eligibility(order_id, reason, match_score, condition="unknown",
                 "return_eligible": status == "eligible", "refund_amount": refund,
                 "evidence": evidence, "risk_flags": flags}
 
-    order = get_order(order_id)
+    order = order or get_order(order_id)
     if order is None:
         flags.append("order_not_found")
         return result("not_eligible")

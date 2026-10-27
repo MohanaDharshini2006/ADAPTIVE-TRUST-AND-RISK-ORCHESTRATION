@@ -1,0 +1,27 @@
+truth,file,pred,note
+damaged,set_16_damaged.jpg,damaged,The returned item has a large vertical tear on the leg that is not present in the original product image.
+damaged,set_17_damaged.jpg,damaged,The returned item has large rips and distressed holes on the legs that are not present on the original product.
+damaged,set_18_damaged.jpg,damaged,"The returned item has large, distinct holes and rips on the leg that are not present on the original product."
+damaged,set_19_damaged.jpg,damaged,The returned hoodie has a large brown stain on the front that is not present on the original product.
+damaged,set_20_damaged.jpg,damaged,"The returned item has a large, jagged tear on the chest that exposes the background, which is not present in the original product image."
+damaged,set_21_damaged.jpg,damaged,The returned sweater has a large vertical tear on the front that is not present in the original product image.
+damaged,set_22_damaged.jpg,damaged,"The returned sweater has a large vertical tear and a hole on the front, which are not present in the original product image."
+damaged,set_23_damaged.jpg,damaged,The returned hoodie has a large hole and a tear on the front pocket that are not present in the original product image.
+damaged,set_24_damaged.jpg,damaged,The returned dress in image 2 has a dark stain on the upper right chest area that is not present in the original product image.
+damaged,set_25_damaged.jpg,damaged,The returned dress has multiple holes and tears on the skirt and bodice that are not present in the original product image.
+damaged,set_26_damaged.jpg,damaged,The returned dress has a large vertical tear in the skirt that is not present in the original product image.
+damaged,set_27_damaged.jpg,damaged,The returned skirt has a large brown stain on the front that is not present in the original product image.
+damaged,set_28_damaged.jpg,damaged,The returned skirt has a large vertical tear and frayed holes near the hem that are not present in the original product image.
+damaged,set_29_damaged.jpg,damaged,"The returned item has a large, frayed hole in the leg that is not present in the original product image."
+damaged,set_30_damaged.jpg,damaged,The returned shorts have large tears and holes on the leg that are not present on the original product.
+intact,set_16_returned.jpg,intact,"The returned item shows the same dark denim texture and stitching as the original product without any visible tears, holes, or stains."
+intact,set_17_returned.jpg,intact,"The returned denim shorts in image 2 appear to be in the same condition as the product in image 1, with no visible tears, holes, or stains."
+intact,set_18_returned.jpg,intact,"The returned item in image 2 appears to be in the same condition as the product in image 1, with no visible tears, holes, or stains."
+intact,set_19_returned.jpg,intact,"The returned item in image 2 appears to be in the same condition as the product in image 1, with no visible tears, holes, or stains."
+intact,set_20_returned.jpg,intact,"The returned item in image 2 appears to be in the same condition as the product in image 1, with no visible tears, holes, or stains."
+intact,set_21_returned.jpg,intact,"The returned item shows the same knit pattern and structure as the original product without any visible tears, holes, or stains."
+intact,set_22_returned.jpg,intact,"The returned item shows the same knit texture and color as the original product without any visible tears, holes, or stains."
+intact,set_23_returned.jpg,intact,The returned pink hoodie appears to be in the same condition as the original product with no visible damage.
+intact,set_24_returned.jpg,intact,"The returned dress in image 2 appears to be in the same condition as the product in image 1, with no visible tears, holes, or stains."
+intact,set_25_returned.jpg,intact,"The returned dress in image 2 appears to be in the same condition as the product in image 1, with no visible tears, holes, or stains."
+intact,set_26_returned.jpg,intact,"The returned dress appears to be in the same condition as the original, with no visible tears, stains, or damage."

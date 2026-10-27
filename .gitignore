@@ -39,3 +39,7 @@ htmlcov/
 
 # Raw dataset crops (206k+ files, 3.4 GB - exceeds GitHub push limits)
 data/crops/
+
+# Local environments and secrets
+.env
+*.env

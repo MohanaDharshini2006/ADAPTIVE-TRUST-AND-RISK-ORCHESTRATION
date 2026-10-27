@@ -24,7 +24,7 @@ def dominant_colour(path):
 def init_db(n=30, seed=42):
     random.seed(seed)
     meta = pd.read_csv("data/crops_meta.csv")
-    shop = meta[meta.source == "shop"].drop_duplicates("key").sample(n, random_state=seed)
+    shop = meta[(meta.source == "shop") & (meta.fold == "test")].drop_duplicates("key").sample(n, random_state=seed)
 
     con = sqlite3.connect(DB)
     con.execute("DROP TABLE IF EXISTS orders")

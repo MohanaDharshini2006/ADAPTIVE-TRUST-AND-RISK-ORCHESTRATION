@@ -1,0 +1,73 @@
+:root {
+  --ink: #16324a; --paper: #f2f5f8; --panel: #ffffff; --line: #cfd8e1; --muted: #566676;
+  --teal: #0e7c86; --accept: #1d7a4d; --verify: #a3640f; --escalate: #b0352f;
+  --r: 6px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.5 system-ui, "Segoe UI", Roboto, sans-serif; }
+h1, h2, h3 { margin: 0; line-height: 1.2; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; }
+:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+
+.top { background: var(--ink); color: #fff; padding: 18px 28px;
+  display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: center; }
+.top h1 { font-size: 1.5rem; }
+.top p { margin: .2rem 0 0; color: #c5d3e0; }
+.status { font-size: .85rem; text-align: right; }
+
+.desk { display: grid; grid-template-columns: minmax(300px, 380px) 1fr; gap: 28px;
+  max-width: 1180px; margin: 28px auto; padding: 0 28px; align-items: start; }
+.intake, .bench { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 24px; }
+
+label { display: block; font-weight: 600; margin: 1rem 0 .3rem; }
+.choice { font-weight: 400; margin: .35rem 0; }
+select, textarea, input[type=file] { width: 100%; font: inherit; color: inherit; padding: 9px 10px;
+  border: 1px solid var(--line); border-radius: var(--r); background: #fff; }
+fieldset { border: 1px solid var(--line); border-radius: var(--r); margin: 1.2rem 0 0; padding: .4rem 14px 12px; }
+legend { font-weight: 600; padding: 0 6px; }
+fieldset select { margin-top: 6px; }
+.hint { color: var(--muted); font-size: .9rem; margin: .4rem 0 0; }
+button { margin-top: 1.4rem; width: 100%; font: inherit; font-weight: 600; padding: 12px;
+  background: var(--teal); color: #fff; border: 0; border-radius: var(--r); cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+.error { color: var(--escalate); min-height: 1.5em; margin: .8rem 0 0; }
+
+.empty p { color: var(--muted); max-width: 52ch; }
+.verdict { --c: var(--verify); border-left: 8px solid var(--c); background: color-mix(in srgb, var(--c) 10%, white);
+  padding: 16px 20px; border-radius: var(--r); }
+.verdict h2 { font-size: 2rem; color: var(--c); }
+.verdict p { margin: .25rem 0 0; }
+.verdict.accept { --c: var(--accept); } .verdict.verify { --c: var(--verify); } .verdict.escalate { --c: var(--escalate); }
+
+.plates { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 22px; }
+figure { margin: 0; }
+figure img { width: 100%; aspect-ratio: 1; object-fit: contain; background: var(--paper);
+  border: 1px solid var(--line); border-radius: var(--r); }
+figcaption { color: var(--muted); font-size: .9rem; margin-top: 6px; }
+
+.ruler { position: relative; display: flex; height: 16px; margin: 34px 0 0; }
+.seg.mismatch { background: #e8c3c0; } .seg.verify { background: #ecd6a8; } .seg.match { background: #b9dcc8; }
+.seg { height: 100%; }
+.marker { position: absolute; top: -8px; bottom: -8px; width: 3px; background: var(--ink); margin-left: -1px; }
+.marker b { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font-size: .9rem;
+  background: var(--ink); color: #fff; padding: 1px 7px; border-radius: var(--r); white-space: nowrap; }
+.ruler-labels { display: flex; font-size: .85rem; color: var(--muted); margin-top: 8px; }
+.ruler-labels span { overflow: hidden; }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin: 1.5rem 0 0; }
+.facts div { border-top: 2px solid var(--line); padding-top: 6px; }
+dt { color: var(--muted); font-size: .85rem; } dd { margin: 0; font-size: 1.2rem; font-weight: 600; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+ul { margin: 0; padding-left: 1.1rem; } li { margin: .25rem 0; }
+pre { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r); padding: 12px;
+  overflow: auto; font-size: .85rem; margin: 0; }
+details { margin-top: 1rem; } summary { cursor: pointer; color: var(--muted); }
+.foot { max-width: 1180px; margin: 0 auto 28px; padding: 0 28px; color: var(--muted); font-size: .85rem; }
+
+@media (max-width: 860px) {
+  .desk { grid-template-columns: 1fr; padding: 0 16px; margin-top: 16px; }
+  .cols, .plates { grid-template-columns: 1fr; }
+  .top { padding: 16px; } .status { text-align: left; }
+}
